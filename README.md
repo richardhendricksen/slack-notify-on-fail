@@ -1,8 +1,7 @@
 # Bitbucket Pipelines Pipe: Slack Notify on Fail
 
-Sends a custom notification to [Slack](https://slack.com) in after script on non-zero BITBUCKET_EXIT_CODE.
-
-You can configure [Slack integration](https://confluence.atlassian.com/bitbucket/bitbucket-cloud-for-slack-945096776.html) for your repository to get notifications on standard events, such as build failures and deployments. Use this pipe to send your own additional notifications at any point in your pipelines.
+Inspired by [Slack Notify](https://bitbucket.org/atlassian/slack-notify/src/master/) by Atlassian.
+Sends a custom notification to [Slack](https://slack.com) on non-zero BITBUCKET_EXIT_CODE.
 
 ## YAML Definition
 
