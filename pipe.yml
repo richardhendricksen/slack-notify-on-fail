@@ -1,0 +1,14 @@
+name: Slack Notify on fail
+image: rhendricksen/slack-notify-on-fail:1.0.0
+description: Send a notification to Slack on failure.
+category: Notifications
+repository: https://github.com/richardhendricksen/slack-notify-on-fail
+vendor:
+  name: Slack
+  website: https://slack.com/
+maintainer:
+  name: Ricard Hendricksen
+  website: https://github.com/richardhendricksen/slack-notify-on-fail
+tags:
+  - notification
+  - slack
