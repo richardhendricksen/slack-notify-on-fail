@@ -40,8 +40,7 @@ class SlackNotifyPipe(Pipe):
     build = get_variable('BITBUCKET_BUILD_NUMBER', default='local')
     exit_code = get_variable("BITBUCKET_EXIT_CODE", default='local')
 
-    self.log_info(exit_code)
-    if exit_code == 0:
+    if exit_code == "0":
       self.log_info("BITBUCKET_EXIT_CODE = 0, skipping sending notification to Slack...")
     else:
       if debug:
